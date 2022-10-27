@@ -33,7 +33,7 @@ if [ $# -lt 1 ]; then
 fi
 
 ROCKETMQ_VERSION=$1
-DOCKERHUB_REPO=registry.cn-guangzhou.aliyuncs.com/ymsl/rocketmq-broker
+DOCKERHUB_REPO=rocketmq-broker
 IMAGE_NAME=${DOCKERHUB_REPO}:${ROCKETMQ_VERSION}-alpine-operator-0.3.0-with-acl-1026
 
 checkVersion $ROCKETMQ_VERSION
